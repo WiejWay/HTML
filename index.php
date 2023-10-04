@@ -74,10 +74,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['uploaded_file'])) {
 <div class="container">
     <form action="" method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="uploaded_file">Wybierz plikjj do wyksłana:</label>
+            <label for="uploaded_file">Wybierz plikjj do wykseeełana:</label>
             <input type="file" name="uploaded_file" id="uploaded_file">
         </div>
-        bozyt
+   
         <div class="form-group">
             <input type="submit" value="Wyślij plik" name="submit">
         </div>
