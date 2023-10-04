@@ -77,6 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['uploaded_file'])) {
             <label for="uploaded_file">Wybierz plikjj do wyksłana:</label>
             <input type="file" name="uploaded_file" id="uploaded_file">
         </div>
+        boz
         <div class="form-group">
             <input type="submit" value="Wyślij plik" name="submit">
         </div>
