@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['uploaded_file'])) {
 <div class="container">
     <form action="" method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="uploaded_file">Wybierz plikjj do wsłania:</label>
+            <label for="uploaded_file">Wybierz plikjj edo wsłania:</label>
             <input type="file" name="uploaded_file" id="uploaded_file">
         </div>
    
