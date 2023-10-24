@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['uploaded_file'])) {
     if (move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $target_file)) {
         echo "Plik został wysłany i zapisany jako " . basename($_FILES['uploaded_file']['name']);
     } else {
-        echo "Wystąpił problem z przesyłaniem plAAAAAAAAAAikWWWWuawwwwwWWWWWWWWWWwwwwww.";
+        echo "Wystąpił problem z przesyłaniem plikWWWWuawwwwwwwwwww.";
     }
 }
 ?>
