@@ -16,8 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['uploaded_file'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aaaaaaaaaaaaaaaaaawwwwwwwwwwwwwww2222wwwwwwwwwwwwwwwwww222222222222wwaaaaaaaaaaaaaaaaaaaawaaaa</title>
-     <style>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    <title>aaaaaaaaaaaaaaaaaaaaaaaaeeaaaaaaaaaaaaaawaaaa</title>
+     <style>
         body {
             font-family: Arial, sans-serif;
             display: flex;
