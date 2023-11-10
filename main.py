@@ -15,7 +15,7 @@ while True:
     screenshot = pyautogui.screenshot(region=region)
 
     # Wygeneruj nazwę pliku
-    screenshot_filename = os.path.join(screens_folder, f"screenseeeeewwwaaaaaaaaaaaaaaaaaaaaaaa
+    screenshot_filename = os.path.join(screens_folder, f"e
     # Zapisz zrzut ekranu w folderze "screens"
     # screenshot.show(screenshot_filename)
 
