@@ -30,8 +30,8 @@ while True:
         # Sprawdź czy poprzedni odczyt był zdefiniowany i czy obecny odczyt spadł poniżej 50%
         if previous_read is not None and current_read/total <= 0.5:
             keyboard.press_and_release('z')
-            print(f"UWAGA! Obecny odczwwwwyt spaaaaeeeeeeewwwwwweeeeeeeeeeeeeaaaaaaaaaaaadł eeeewwwwweeeeeeeeeeeeeeeeeeeeeafraaaaaaaaaaaaaaaaaaaaawwwwwwaaw 50%: {filtered_text}")
-
+            print(f"UWAGA! Obecny odczwwwwyt spaaaaaaaaaaaaaaaadł eeeewwwwweeeeeeeeeeeeeeeeeeeeeafraaaaaaaaaaaaaaaaaaaaawwwwwwaaw 50%: {filtered_text}")
+w
         previous_read = current_read
     except ValueError:
         pass
