@@ -23,8 +23,8 @@ while True:
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
-wwwwwwwwwwwwwwwwwwwwwwww
-    try:eeeeeeeeeeeeeeeeeeeeeeeeee
+
+    try:
         current_read, total = map(int, filtered_text.split('/'))
 
         # Sprawdź czy poprzedni odczyt był zdefiniowany i czy obecny odczyt spadł poniżej 50%
