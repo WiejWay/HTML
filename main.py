@@ -18,7 +18,7 @@ while True:
     screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
 
     # Zapisz zrzut ekranu w folderze "screens"
-    # screenshot.show(screenshot_filename)
+    # screenshot.show(screenshot_filename)eeeeeeeeeeeeeeeeeeeeeeeeee
 
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
