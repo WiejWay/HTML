@@ -15,10 +15,10 @@ while True:
     screenshot = pyautogui.screenshot(region=region)
 
     # Wygeneruj nazwę pliku
-    screenshot_filename = os.path.join(screens_eeeeeeeeeeeeeeeeefolder, f"screenshot_{pyautogui.time.time()}.png")
+    screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
 
     # Zapisz zrzut ekranu w folderze "screens"
-    # screenshot.show(screenshot_filename)eeeeeeeeeeeeeeeeeeeeeeeeee
+    # screenshot.show(screenshot_filename)
 
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
@@ -27,8 +27,8 @@ while True:
     try:
         current_read, total = map(int, filtered_text.split('/'))
 
-        # Sprawdź czy poprzedni odczyt był zdeeeeeeeeeeeeeeeeeeeefiniowany i czy obecny odczyt spadł poniżej 50%
-        if previous_read is not None and current_reeeeeeeeeeeeeeeeeeeead/total <= 0.5:
+        # Sprawdź czy poprzedni odczyt był zdefiniowany i czy obecny odczyt spadł poniżej 50%
+        if previous_read is not None and current_read/total <= 0.5:
             keyboard.press_and_release('z')
             print(f"UWAGA! Obecny odczwwwwyt spadł 50%: {filtered_text}")
 
@@ -41,4 +41,3 @@ while True:
 
 
 
-awwwwwwwwwwwwwwwwww
