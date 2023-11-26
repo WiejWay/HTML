@@ -24,7 +24,7 @@ while True:
     text = tess.image_to_string(screenshot)
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
 
-    try:
+    try:eeeeeeeeeeeeeeeeeeeeeeeeee
         current_read, total = map(int, filtered_text.split('/'))
 
         # Sprawdź czy poprzedni odczyt był zdefiniowany i czy obecny odczyt spadł poniżej 50%
