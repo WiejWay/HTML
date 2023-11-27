@@ -11,15 +11,15 @@ os.makedirs(screens_folder, exist_ok=True)
 region = (60, 1000, 210, 30)
 previous_read = None
 while True:
-    # Zrób zrzut ekranu z określonego obszaruwwwwwwwwwwwwwwwwww
-    screenshot = pyautogui.screenshot(region=region)eeeeeeeeeeeeeeee
+    # Zrób zrzut ekranu z określonego obszaru
+    screenshot = pyautogui.screenshot(region=region)
 
     # Wygeneruj nazwę pliku
     screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
 
     # Zapisz zrzut ekranu w folderze "screens"
     # screenshot.show(screenshot_filename)
-wwwwwwwwwwwwwwwwwww
+
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
