@@ -10,12 +10,12 @@ os.makedirs(screens_folder, exist_ok=True)
 # Definiuj koordynaty obszaru (lewy, góra, prawy, dół)
 region = (60, 1000, 210, 30)
 previous_read = None
-while True:wwwwwwwwwwwwwwwwwwww
+while True:
     # Zrób zrzut ekranu z określonego obszaru
     screenshot = pyautogui.screenshot(region=region)eeeeeeeeeeeeeeee
 
     # Wygeneruj nazwę pliku
-    screenshot_filename = os.path.join(wwwwwwwwwwwwwwwwwwwwwwwwwwwww, f"screenshot_{pyautogui.time.time()}.png")
+    screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
 
     # Zapisz zrzut ekranu w folderze "screens"
     # screenshot.show(screenshot_filename)
