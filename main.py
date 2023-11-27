@@ -11,7 +11,7 @@ os.makedirs(screens_folder, exist_ok=True)
 region = (60, 1000, 210, 30)
 previous_read = None
 while True:
-    # Zrób zrzut ekranu z określonego obszaru
+    # Zrób zrzut ekranu z określonego obszaruwwwwwwwwwwwwwwwwww
     screenshot = pyautogui.screenshot(region=region)eeeeeeeeeeeeeeee
 
     # Wygeneruj nazwę pliku
