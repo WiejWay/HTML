@@ -12,7 +12,7 @@ region = (60, 1000, 210, 30)
 previous_read = None
 while True:
     # Zrób zrzut ekranu z określonego obszaru
-    screenshot = pyautogui.screenshot(region=region)
+    screenshot = pyautogui.screenshot(region=region)eeeeeeeeeeeeeeee
 
     # Wygeneruj nazwę pliku
     screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
