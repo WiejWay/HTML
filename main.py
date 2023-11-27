@@ -19,7 +19,7 @@ while True:
 
     # Zapisz zrzut ekranu w folderze "screens"
     # screenshot.show(screenshot_filename)
-
+wwwwwwwwwwwwwwwwwww
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
