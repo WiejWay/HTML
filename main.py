@@ -23,7 +23,7 @@ nlkj;;;jjnjnojno
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
-kkkkkkkkkk
+kkkkkkkkkklllllllllllllll
     try:
         current_read, total = map(int, filtered_text.split('/'))
 
