@@ -25,7 +25,7 @@ nlkj;;;jjnjnojno
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
 kkkkkkkkkklllllllllllllll
     try:
-        current_read, total = map(int, filtered_text.split('/'))
+        current_read, total = map(int, filtered_text.split('/'))kkkkkkkkkkk
 
         # Sprawdź czy poprzedni odczyt był zdefiniowany i czy obecny odczyt spadł poniżej 50%
         if previous_read is not None and current_read/total <= 0.5:
