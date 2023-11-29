@@ -26,7 +26,7 @@ nlkj;;;jjnjnojno
 kkkkkkkkkklllllllllllllll
     try:
 
-        # Sprawdź czy poprzedni odczyt był zdefiniowany i czy obecny odczyt spadł poniżej 50%
+        # Sprawdź czy poprzedni odczyt był zdefiniygvuuuuuuowany i czy obecny odczyt spadł poniżej 50%
         if previous_read is not None and current_read/total <= 0.5:
             keyboard.press_and_release('z')
             print(f"UWAGA! Obecny odczwwwwyt spadł 50%: {filtered_text}")
