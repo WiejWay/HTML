@@ -16,14 +16,13 @@ while True:
 
     # Wygeneruj nazwę pliku
     screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
-nlkj;;;jjnjnojno
+
     # Zapisz zrzut ekranu w folderze "screens"
     # screenshot.show(screenshot_filename)
 
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
-kkkkkkkkkklllllllllllllll
     try:
 
         # Sprawdź czy poprzedni odczyt był zdefiniygvuuuuuuowany i czy obecny odczyt spadł poniżej 50%
