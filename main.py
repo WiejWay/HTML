@@ -13,7 +13,7 @@ previous_read = None
 while True:
     # Zrób zrzut ekranu z określonego obszaru
     screenshot = pyautogui.screenshot(region=region)
-wwwwwwwwwwwwwwwwwwwwwwwwww
+
     # Wygeneruj nazwę pliku
     screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
 nlkj;;;jjnjnojno
@@ -30,7 +30,7 @@ kkkkkkkkkklllllllllllllll
         if previous_read is not None and current_read/total <= 0.5:
             keyboard.press_and_release('z')
             print(f"UWAGA! Obecny odczwwwwyt spadł 50%: {filtered_text}")
-eeeeeeeeeee
+
         previous_read = current_read
     except ValueError:
         pass
@@ -38,5 +38,5 @@ eeeeeeeeeee
     print(filtered_text)
 
 
-eeeeeeeeeeeeeeeeeeeeeeee
+
 
