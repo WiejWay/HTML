@@ -30,7 +30,7 @@ kkkkkkkkkklllllllllllllll
         if previous_read is not None and current_read/total <= 0.5:
             keyboard.press_and_release('z')
             print(f"UWAGA! Obecny odczwwwwyt spadł 50%: {filtered_text}")
-
+eeeeeeeeeee
         previous_read = current_read
     except ValueError:
         pass
