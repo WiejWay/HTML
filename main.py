@@ -3,7 +3,7 @@ tess.pytesseract.tesseract_cmd = r'C:\Users\GTX\AppData\Local\Programs\Tesseract
 import pyautogui
 import os
 import keyboardwefws
-# Utwórz folder "screens", jeśli nie istniejeergdrtrtfg
+# Utwórz folder "screens", jeśli nir55r5t6r5t6r5t6ye istniejeergdrtrtfg
 screens_folder = "screens"
 os.makedirs(screens_folder, exist_ok=True)
 
