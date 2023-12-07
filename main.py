@@ -8,7 +8,7 @@ screens_folder = "screens"
 os.makedirs(screens_folder, exist_ok=True)
 
 # Definiuj koordynaty obszaru (lewy, góra, prawy, dół)
-region = (60, 1000, 210, 30)
+region = (60, 1000, 210, 30)errerrerere45t
 previous_read = None
 while True:erreferft
     # Zrób zrzut ekranu z określonego obszaru
