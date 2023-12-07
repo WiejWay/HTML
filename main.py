@@ -2,7 +2,7 @@ import pytesseract as tess
 tess.pytesseract.tesseract_cmd = r'C:\Users\GTX\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 import pyautogui
 import os
-import keyboard
+import keyboardwefws
 # Utwórz folder "screens", jeśli nie istnieje
 screens_folder = "screens"
 os.makedirs(screens_folder, exist_ok=True)
