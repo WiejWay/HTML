@@ -3,14 +3,14 @@ tess.pytesseract.tesseract_cmd = r'C:\Users\GTX\AppData\Local\Programs\Tesseract
 import pyautogui
 import os
 import keyboardwefws
-# Utwórz folder "screens", jeśli nie istniejeergdrtrtfg
+# Utwórz folder "screens", jeśli nie istnieje
 screens_folder = "screens"
 os.makedirs(screens_folder, exist_ok=True)
 
 # Definiuj koordynaty obszaru (lewy, góra, prawy, dół)
 region = (60, 1000, 210, 30)
 previous_read = None
-while True:erreferft
+while True:
     # Zrób zrzut ekranu z określonego obszaru
     screenshot = pyautogui.screenshot(region=region)
 
