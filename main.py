@@ -10,7 +10,7 @@ os.makedirs(screens_folder, exist_ok=True)
 # Definiuj koordynaty obszaru (lewy, góra, prawy, dół)
 region = (60, 1000, 210, 30)
 previous_read = None
-while True:
+while True:erreferft
     # Zrób zrzut ekranu z określonego obszaru
     screenshot = pyautogui.screenshot(region=region)
 
