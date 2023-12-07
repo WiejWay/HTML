@@ -3,7 +3,7 @@ tess.pytesseract.tesseract_cmd = r'C:\Users\GTX\AppData\Local\Programs\Tesseract
 import pyautogui
 import os
 import keyboardwefws
-# Utwórz folder "screens", jeśli nir55r5t6r5t6r5t6ye istniejeergdrtrtfg
+# Utwórz folder "screens", jeśli nie istniejeergdrtrtfg
 screens_folder = "screens"
 os.makedirs(screens_folder, exist_ok=True)
 
@@ -17,9 +17,9 @@ while True:erreferft
     # Wygeneruj nazwę pliku
     screenshot_filename = os.path.join(screens_folder, f"screenshot_{pyautogui.time.time()}.png")
 nlkj;;;jjnyytyhythytujyujhjnojno
-    # Zapisz zrzut ekranu w folderze "scryukm,yukieens"
+    # Zapisz zrzut ekranu w folderze "screens"
     # screenshot.show(screenshot_filename)
-yukyuk
+
     # Wykonaj OCR na zrzucie ekranu
     text = tess.image_to_string(screenshot)
     filtered_text = ''.join(char for char in text if char.isdigit() or char == '/')
